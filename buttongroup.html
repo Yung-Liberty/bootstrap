@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" rel="stylesheet">
+</head>
+<body>
+    <h1 class="text-bg-danger">Welcome to bootstrap</h1>
+
+    <!-- button group -->
+    <div class="btn-group">
+     <button type="button" class="btn btn-ptimary">Apple</button>
+     <button type="button" class="btn btn-ptimary">Samsung</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+            <div class="dropdown-menu">
+                <p href="#" class="dropdown-item">Action</p>
+                <p href="#" class="dropdown-item">Another Action</p>
+                <p href="#" class="dropdown-item">Something else here</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- badges -->
+     <h1>Blockfest Africa <span class="badge bg-primary">Upcoming</span></h1>
+     <h2>Blockfest Africa <span class="badge bg-secondary">Upcoming</span></h2>
+     <h2>Blockfest Africa <span class="badge rounded-pill bg-info">Upcoming</span></h2>
+     <h2>Blockfest Africa <span class="badge rounded-pill bg-warning">Upcoming</span></h2>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+     <button type="button" class="btn btn-primary mb-3">
+        Messages <span class="badge bg-danger">+4</span>
+     </button>
+
+     <!-- progress bar -->
+      <div class="progress  mb-3">
+        <div class="progress-bar progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            25%
+        </div>
+      </div>
+
+      <div class="progress mb-3" style="height: 25px;">
+        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        50%
+        </div>
+      </div>
+
+      <!-- list group -->
+    <ul class="list-group">
+        <li class="list-group-item active">Item 1</li>
+        <li class="list-group-item">Item 2</li>
+        <li class="list-group-item">Item 3</li>
+        <li class="list-group-item">Item 4</li>
+     </ul>
+
+    <div class=" list-group list-group-numbered list-group-flush my-3">
+        <a href="#" target="_blank" class="list-group-item list-group-item-action">First item</a>
+        <a href="#" target="_blank" class="list-group-item list-group-item-info list-group-item-action">Second item</a>
+        <a href="#" target="_blank" class="list-group-item list-group-item-success list-group-item-action">Third item</a>
+    </div>
+
+    <!-- list group with badges -->
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center ">Inbox <span class="badge bg-info rounded-pill">12</span></li>
+
+        <li class="list-group-item d-flex justify-content-between align-items-center ">Ads <span class="badge bg-warning rounded-pill">20</span></li>
+
+        <li class="list-group-item d-flex justify-content-between align-items-center ">Junks <span class="badge bg-danger rounded-pill">30</span></li>
+    </ul>
+
+    <dl>
+        <dt>Protein
+           <dd>It's a class of food</dd>
+        </dt>
+        <dt>Fat/Oil
+            <dd>It's gotten from animal and plant respectively</dd>
+        </dt>
+    </dl>
+</body>
+</html>
